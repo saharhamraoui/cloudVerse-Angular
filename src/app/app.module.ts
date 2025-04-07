@@ -5,24 +5,22 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './back-office/navbar/navbar.component';
 import { SidebarComponent } from './back-office/sidebar/sidebar.component';
-import { FooterComponent } from './front-office/footer/footer.component';
-import { HeaderComponent } from './front-office/header/header.component';
 import { HomeComponent } from './front-office/home/home.component';
+import { FooterComponent } from './front-office/footer/footer.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent,
-    FooterComponent,
     NavbarComponent,
     SidebarComponent,
     HomeComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MatIconModule
+    MatIconModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
